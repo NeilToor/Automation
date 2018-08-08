@@ -1,0 +1,9 @@
+---
+ec2_access_key: AKIAIXLEGIAYPV4HTYHA 
+ec2_secret_key: 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
+
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - ...
